@@ -1,1 +1,3 @@
-Documents
+python-docx
+requests
+Pillow

@@ -14,7 +14,7 @@ A Python script that downloads images from a list of URLs and assembles them int
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install python-docx requests Pillow
+pip install -r requirements.txt
 ```
 
 ## Usage
