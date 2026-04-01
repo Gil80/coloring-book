@@ -30,7 +30,9 @@ def create_coloring_book():
     for i, url in enumerate(image_urls):
         try:
             print(f"Processing image {i+1}...")
-            response = requests.get(url, timeout=15)
+            response = requests.get(url, timeout=15, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+            })
             img = Image.open(BytesIO(response.content))
             
             tmp_buffer = BytesIO()

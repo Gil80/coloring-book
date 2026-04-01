@@ -1,9 +1,13 @@
 # Python virtual environment
 venv/
+.env
 .env/
 __pycache__/
 *.pyc
 *.pyo
+
+# Claude Code settings (may contain API keys)
+.claude/settings.json.ai
 
 # Common
 *.log

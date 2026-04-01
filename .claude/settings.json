@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(ls)",
+      "Bash(grep:*)",
+      "Bash(sed:*)",
+      "Bash(awk:*)",
+      "Bash(git:*)",
+      "Bash(find:*)",
+      "Read(*.lua)",
+      "Read(*.md)",
+      "Read(*.json)",
+      "Edit(*.lua)",
+      "Edit(*.md)",
+      "Edit(*.json)",
+      "Glob(*.lua)",
+      "Glob(*.md)",
+      "Grep(*.lua)",
+      "TaskCreate",
+      "TaskUpdate"
+    ]
+  }
+}

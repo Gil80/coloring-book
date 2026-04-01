@@ -1,3 +1,6 @@
 python-docx
 requests
 Pillow
+websocket-client
+openai
+python-dotenv
