@@ -9,6 +9,10 @@ __pycache__/
 # Claude Code settings (may contain API keys)
 .claude/settings.json.ai
 
+# Generated output
+Kawaii_Coloring_Book_Final.docx
+links.txt
+
 # Common
 *.log
 .DS_Store
